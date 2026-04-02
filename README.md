@@ -2,9 +2,9 @@
 
 Real-time message queue for office communication. Staff post short messages (using initials and codes, never PHI) and the board keeps everyone in sync across workstations. Messages age through color-coded states so nothing gets forgotten.
 
-<img src="C:\Users\John\AppData\Roaming\Typora\typora-user-images\image-20260402141521662.png" alt="image-20260402141521662" style="zoom:67%;" />
+![WhiteboardQ Client](docs/images/screenshot-client.png)
 
-<img src="C:\Users\John\AppData\Roaming\Typora\typora-user-images\image-20260402141556992.png" alt="image-20260402141556992" style="zoom:60%;" />
+![WhiteboardQ Server Manager](docs/images/screenshot-manager.png)
 
 
 
