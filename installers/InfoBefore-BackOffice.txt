@@ -1,0 +1,18 @@
+NETWORK CONFIGURATION NOTICE
+
+This installer will add Windows Firewall rules:
+
+  - TCP port 5000 (client connections)
+  - UDP port 5001 (network discovery)
+
+Rules are removed on uninstall.
+
+---
+
+WINDOWS SERVICE
+
+This installer will also:
+
+  - Install WhiteboardQ Server as a Windows Service
+  - Configure the service to start automatically on boot
+  - Start the service immediately after installation

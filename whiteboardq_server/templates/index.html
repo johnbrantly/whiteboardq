@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>WhiteboardQ</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div id="login-screen" class="screen">
+        <div class="login-container">
+            <h1>WhiteboardQ</h1>
+            <p>Enter your station name to connect</p>
+            <input type="text" id="station-input" placeholder="e.g., Front-Desk" autocomplete="off">
+            <button id="connect-btn">Connect</button>
+        </div>
+    </div>
+
+    <div id="main-screen" class="screen hidden">
+        <header>
+            <h1>WhiteboardQ</h1>
+            <div class="header-info">
+                <span id="station-label"></span>
+                <span id="connection-status" class="status-disconnected">Disconnected</span>
+            </div>
+        </header>
+
+        <div class="phi-banner">
+            For operational messages only. Do not include PHI.
+        </div>
+
+        <main>
+            <div id="messages-container">
+                <div id="messages-list"></div>
+            </div>
+        </main>
+
+        <footer>
+            <form id="message-form">
+                <input type="text" id="message-input" placeholder="Type a message..." autocomplete="off">
+                <button type="submit">Send</button>
+            </form>
+        </footer>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

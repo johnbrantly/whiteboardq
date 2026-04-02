@@ -1,0 +1,86 @@
+WhiteboardQ includes or depends on the following third-party software:
+
+RUNTIME DEPENDENCIES
+====================
+
+PySide6 (Qt for Python)
+  License: LGPL v3 / GPL v2 / GPL v3 (commercial)
+  URL: https://www.qt.io/licensing/
+
+qasync
+  License: BSD 2-Clause
+  URL: https://github.com/CabbageDevelopment/qasync
+
+FastAPI
+  License: MIT
+  URL: https://github.com/fastapi/fastapi
+
+uvicorn
+  License: BSD 3-Clause
+  URL: https://github.com/encode/uvicorn
+
+aiosqlite
+  License: MIT
+  URL: https://github.com/omnilib/aiosqlite
+
+websockets
+  License: BSD 3-Clause
+  URL: https://github.com/python-websockets/websockets
+
+pydantic
+  License: MIT
+  URL: https://github.com/pydantic/pydantic
+
+cryptography
+  License: Apache 2.0 / BSD 3-Clause
+  URL: https://github.com/pyca/cryptography
+
+Jinja2
+  License: BSD 3-Clause
+  URL: https://github.com/pallets/jinja
+
+python-multipart
+  License: Apache 2.0
+  URL: https://github.com/Kludex/python-multipart
+
+pywin32
+  License: PSF License
+  URL: https://github.com/mhammond/pywin32
+
+click
+  License: BSD 3-Clause
+  URL: https://github.com/pallets/click
+
+
+BUILD DEPENDENCIES
+==================
+
+PyInstaller
+  License: GPL v2 with bootloader exception
+  URL: https://pyinstaller.org/
+  Note: Build tool only. The bootloader exception permits distribution
+        of compiled executables without requiring GPL on the application.
+
+setuptools-scm
+  License: MIT
+  URL: https://github.com/pypa/setuptools-scm
+
+Inno Setup
+  License: Inno Setup License (free for any use including commercial)
+  URL: https://jrsoftware.org/isinfo.php
+
+
+TEST DEPENDENCIES
+=================
+
+pytest
+  License: MIT
+  URL: https://github.com/pytest-dev/pytest
+
+pytest-asyncio
+  License: Apache 2.0
+  URL: https://github.com/pytest-dev/pytest-asyncio
+
+httpx
+  License: BSD 3-Clause
+  URL: https://github.com/encode/httpx

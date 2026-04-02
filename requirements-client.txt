@@ -1,0 +1,4 @@
+# WhiteboardQ Client only
+PySide6==6.7.0
+qasync==0.27.1
+websockets==12.0
