@@ -3,7 +3,7 @@
 Real-time message queue for office communication. Install on all computers in your small business. Staff posts short messages (using initials and codes, never PHI) and the board keeps everyone in sync across workstations in different rooms. Messages age through color-coded states. Your data never leaves your network!
 
 <p align="center">
-  <video src="docs/images/whiteboardQ-demo.mp4" controls width="700"></video>
+  <video src="https://github.com/user-attachments/assets/8594074e-fb1f-4b59-bb3c-827ae601a60b" controls width="700"></video>
 </p>
 
 ![WhiteboardQ Server Manager](docs/images/screenshot-manager.png)
